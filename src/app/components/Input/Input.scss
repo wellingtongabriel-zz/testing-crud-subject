@@ -1,0 +1,30 @@
+$color: #969696;
+$border-color: #707070;
+
+
+
+:local .input-form {
+  display: flex;
+  width: 100%;
+
+  input, textarea {
+    border-radius: 6px;
+    border: 1px solid #999;
+    width: 100%;
+    line-height: normal;
+    font-size: 14px;
+    padding: 7px;
+    margin: 10px;
+  }
+  
+  textarea {
+    margin: 0;
+  }
+}
+
+:local .img {
+  height: auto;
+  width: 1.5rem;
+  padding-top: 0.8rem;
+}
+

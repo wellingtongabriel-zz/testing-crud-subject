@@ -1,0 +1,144 @@
+* {
+  outline: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px !important;
+  height: 4px !important;;
+  -moz-appearance: none !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #969696 !important;;
+  -moz-appearance: none !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: lighten(#969696, 10) !important;;
+  -moz-appearance: none !important;
+}
+
+@font-face {
+  font-family: 'Nexa Book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Nexa Book'),
+  local('Nexa-Book'),
+  url("../fonts/Nexa-Book.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'Nexa Black';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Nexa Black'),
+  local('NexaBlack'),
+  url("../fonts/NexaBlack.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'Nexa Bold';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Nexa Bold'),
+  local('Nexa-Bold'),
+  url("../fonts/Nexa_bold.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'Nexa';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Nexa Bold'),
+  local('Nexa-Bold'),
+  url("../fonts/Nexa_bold.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'Nexa';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Nexa Light'),
+  local('Nexa-Light'),
+  url("../fonts/Nexa_light.otf") format('opentype');
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+input,
+button,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+label,
+span:not(.material-icons) {
+  font-family: 'Nexa', "Arial Black", sans-serif !important;
+  font-size: 14px;
+}
+
+.main {
+  display: flex;
+  max-height: 100vh;;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: auto;
+  }
+}
+
+//.selectable-selectbox {
+//  z-index: 9000;
+//  position: absolute;
+//  cursor: default;
+//  background: none;
+//  border: 1px dashed grey;
+//}
+
+.selectable-item {
+  display: flex;
+  padding: 0 4px;
+  cursor: pointer;
+  border-right: solid 1px #ccc;
+  .item {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 10px 0;
+    color: #333;
+  }
+  &.no-border {
+    border-right: 0;
+  }
+  &.selected {
+    &:nth-child(odd) span {
+      background-color: #ccc;
+    }
+    &:nth-child(even) span {
+      background-color: #999;
+    }
+  }
+}
+
+.BoldBtn {
+  background: #222222;
+  height: 50px;
+}
+
+@media print{
+  .no-print{
+    display: none
+  }
+}

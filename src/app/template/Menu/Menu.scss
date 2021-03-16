@@ -1,0 +1,24 @@
+:local .nav {
+  max-width: 72px;
+  width: 72px;
+  height: 100vh;
+  background-color: #00ACA9;
+  position: relative;
+  min-width: 72px;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 17px 0;
+
+    img {
+      width: 75.7143%;
+    }
+  }
+
+  .navbar {
+    margin-top: 5px;
+  }
+
+}

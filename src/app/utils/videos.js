@@ -1,0 +1,18 @@
+const VIDEOS = {
+    TELA_PRINCIPAL_ID: 'xf2_5qlr9mY',
+    AGENDAMENTO_ID: 'AofO4qyJdSQ',
+    EDITAR_AGENDAMENTO_ID: 'owwi7cF4uVE',
+    CANCELAR_AGEDAMENTO_ID: 'wc3UvG3Zm6A',
+    RELATORIOS_ID: 'gisuAaUmIrU',
+    RECEITAS_ID: 'E6I0FODT3VY',
+    PRONTUARIO_ID: '2Gx-UTgE9v8',
+    CADASTRAR_PACIENTE_ID: 'o9P8D3PdjJE',
+    CRIAR_DOCUMENTOS_ID: 'lJMqC-lzCZw',
+    FINANCEIRO_ID: 'xVKcWOqkWeo',
+    CONVENIOS_ID: 'eRP4amRTdZ8',
+    CHAT_ID: 'cVDdDb-3lzs',
+    CADASTRO_ID: 'qipQd27rhrU',
+    ATENDIMENTO_ID: 'XZkQbJ0dMfc'
+}
+
+export default VIDEOS;

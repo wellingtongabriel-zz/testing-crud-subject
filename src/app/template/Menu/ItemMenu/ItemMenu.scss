@@ -1,0 +1,16 @@
+:local .btn-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+
+  &:hover {
+    background-color: lighten(#00ACA9, 2);
+  }
+
+  img {
+    height: auto;
+    width: 1rem;
+  }
+}

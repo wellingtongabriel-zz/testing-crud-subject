@@ -1,0 +1,16 @@
+$color-components-primary: #00ACA9;
+
+$background-button-primary: #00ACA9;
+$color-primary: green;
+$color-secondary: aqua;
+$color-tertiary: #222222;
+$color-border: #999;
+$color-hover: #666;
+
+:global .background-button-primary {
+  color: $color-components-primary;
+}
+
+:global .border-focus-input-primary input:focus {
+  border: 1px solid $color-components-primary !important;
+}

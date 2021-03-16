@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.923 31.923">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e5e5e3;
+      }
+    </style>
+  </defs>
+  <path id="ic_chat_bubble_24px" class="cls-1" d="M30.73,2H5.192A3.2,3.2,0,0,0,2,5.192v28.73l6.385-6.385H30.73a3.2,3.2,0,0,0,3.192-3.192V5.192A3.2,3.2,0,0,0,30.73,2Z" transform="translate(-2 -2)"/>
+</svg>

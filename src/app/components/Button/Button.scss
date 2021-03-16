@@ -1,0 +1,25 @@
+$color-primary: #00B0AE;
+
+:local .btn {
+  padding: 10px 0;
+  border-radius: 9px;
+
+  &.primary {
+    color: #fff;
+    background-color: $color-primary;
+  }
+
+  &.danger {
+    color: #fff;
+    background-color: darkred;
+  }
+}
+
+:local .button-submit {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  border-radius: 3;
+  border: 0;
+  color: #fff;
+  height: 48px;
+  padding: 0 30px;
+}

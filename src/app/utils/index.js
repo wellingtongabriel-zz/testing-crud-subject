@@ -1,0 +1,5 @@
+export LightenColor from './LightenColor'
+export RemoveAcento from './removeAcento'
+export Dates from './dates'
+export String from './string'
+export isTouchCapable from './isTouchCapable'
